@@ -37,7 +37,7 @@ ul{
 li {
   display:inline;
   padding: 20px;
-
+  font-family:arial;
 }
 li a{
   text-decoration: none;
