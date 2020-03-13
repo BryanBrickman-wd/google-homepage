@@ -9,10 +9,13 @@ img {
   margin-top: 10%;
 }
 input {
-  width: 650px;
+  width: 630px;
   height: 40px;
   border-radius: 20px;
   margin: 20px;
+}
+input:hover {
+  box-shadow: 0px 0px 5px 3px #f0f0f0;
 }
 ul {
   list-style-type: none;
@@ -30,7 +33,7 @@ li a{
   padding: 10px;
   text-decoration: none;
   color: #646464;
-  font-size: 15px;
+  font-size: 20px;
 }
 li a:hover{
   text-decoration: underline;
@@ -49,6 +52,7 @@ footer {
   border-radius:5px;
   border-width: thin;
   border-color: #f5f5f5;
+  border: 0px;
   margin: 10px;
   padding: 10px 20px;
   font-size: 20px;
@@ -56,7 +60,8 @@ footer {
   color: #767676;
 }
 .btn:hover{
-  border-color: black;
-
-  box-shadow: 0px 1px ;
+  border-color: #00000;
+  border: 1px;
+  box-shadow: 0px 1px 2px 1px #e0e0e0;
 }
+<!-- Border on button hover does not show up... -->
